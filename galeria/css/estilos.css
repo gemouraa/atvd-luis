@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(red,white,black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 340px;
+    margin-bottom: 40px;
+}
+.central{
+    background: white;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+}
+.central div button{ 
+    width: 110px;
+    background: red;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.central div button:hover{
+    background: darkred;
+}
